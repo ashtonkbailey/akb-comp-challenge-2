@@ -1,0 +1,17 @@
+body {
+  display: grid;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 10px;
+}
+
+article {
+  background-color: #545454;
+}
+
+h1 {
+  grid-column: 1 / -1;
+}
