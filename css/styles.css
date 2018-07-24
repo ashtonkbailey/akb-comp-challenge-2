@@ -1,4 +1,5 @@
 body {
+  margin: 0;
   display: grid;
 }
 
@@ -14,4 +15,25 @@ article {
 
 h1 {
   grid-column: 1 / -1;
+}
+
+header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+}
+
+li {
+  display: inline;
+}
+
+.login {
+  justify-self: end;
+  grid-column: span 2;
+}
+
+.logo {
+  justify-self: end;
+  height: 10em;
+  width:  25em;
 }
