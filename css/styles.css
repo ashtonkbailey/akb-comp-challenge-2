@@ -150,6 +150,10 @@ nav {
   margin-bottom: 1em;
 }
 
+.nav-bar {
+  display: none;
+}
+
 .numbers {
   color: #C46D5E;
   font-size: 2em;
@@ -194,6 +198,57 @@ nav {
 }
 
 
+@media screen and (max-width: 600px) {
+
+  main {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  }
+
+  .nav-bar {
+    display: initial;
+  }
+
+  .shows,
+  .trades,
+  .your-farm {
+    display: none;
+  }
 
 
+}
 
+@media screen and (max-width: ) {
+
+  a {
+    font-size: 1.5em;
+  }
+
+  article {
+    height: 40em;
+  }
+
+  .buy-icon {
+    height: 5em;
+  }
+
+  .birdy,
+  .bowie,
+  .fluffy,
+  .foal,
+  .greg,
+  .joseph,
+  .miriam,
+  .squirtle,
+  .whimsy {
+    height: 300px;
+  }
+
+  main {
+    grid-template-columns: repeat(auto-fit, minmax(455px, 1fr));
+  }
+
+  .shows {
+    display: none;
+  }
+   
+}
