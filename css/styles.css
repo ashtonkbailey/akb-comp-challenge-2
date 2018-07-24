@@ -2,6 +2,8 @@ body {
   display: grid;
   margin: 0;
   background-color: #E7f0ED;
+  font-family: 'Open Sans', sans-serif;
+  color: #5B5941;
 }
 
 main {
@@ -19,6 +21,13 @@ article {
 
 h1 {
   grid-column: 1 / -1;
+  font-family: 'Yellowtail', cursive;
+  font-size: 3em;
+  margin: .5em 0;
+}
+
+h3 {
+  font-size: 1em;
 }
 
 .seller-farm {
@@ -54,6 +63,8 @@ li {
 .login {
   justify-self: end;
   grid-column: span 2;
+  margin: 1em;
+  font-weight: 700; 
 }
 
 .logo {
@@ -88,6 +99,12 @@ li {
   height: 150px;
 }
 
+nav {
+  align-self: end;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
 .greg {
   background-image: url(../images/greg.jpg);
   background-size: cover;
@@ -97,6 +114,8 @@ li {
 }
 
 .level-container {
+  color: #C46D5E;
+  font-weight: 700;
   position: absolute;
   top: 2px;
   right: 1em;
@@ -133,7 +152,9 @@ li {
 }
 
 .numbers {
+  color: #C46D5E;
   font-size: 2em;
+  font-weight: 700;
   margin: 0;
 }
 
