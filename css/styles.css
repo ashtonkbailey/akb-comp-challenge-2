@@ -35,6 +35,22 @@ li {
   display: inline;
 }
 
+.birdy {
+  background-image: url(../images/birdy.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 150px;
+}
+
+.bowie {
+  background-image: url(../images/bowie.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 150px;
+}
+
 .login {
   justify-self: end;
   grid-column: span 2;
@@ -52,8 +68,32 @@ li {
   margin-left: 1em;
 }
 
+.joseph {
+  background-image: url(../images/joseph.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 150px;
+}
+
 .level {
   margin: 10px 0 2px;
+}
+
+.miriam {
+  background-image: url(../images/miriam.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 150px;
+}
+
+.greg {
+  background-image: url(../images/greg.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 150px;
 }
 
 .level-container {
@@ -63,7 +103,6 @@ li {
 }
 
 .article-top {
-  height: 120px;
   position: relative;
 }
 
@@ -71,10 +110,26 @@ li {
   margin: 1em;
 }
 
+.fluffy {
+  background-image: url(../images/fluffy.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 150px;
+}
+
 .farm-link {
   background-color: #CACAAA;
   height: 3em;
   word-break: break-all;
+}
+
+.foal {
+  background-image: url(../images/foal.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 150px;
 }
 
 .numbers {
@@ -90,6 +145,27 @@ li {
   margin-top: 0;
 }
 
+.squirtle {
+  background-image: url(../images/squirtle.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 150px;
+}
+
 .ribbons {
   margin-bottom: 0;
 }
+
+.whimsy {
+  background-image: url(../images/whimsy.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 150px;
+}
+
+
+
+
+
